@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    --custom-primary-color: #427D9D;
+    --custom-hover-color: #9BBEC8;
+    --text-color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: #427D9D;
+}
+
+.navbar-brand:hover {
+    color: #9BBEC8;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link {
+    color: #427D9D;
+}
+
+.nav-link:hover {
+    color: #9BBEC8;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-item {
+    gap: 0.8rem;
+    padding: 8px;
+}
+
+.nav-profile {
+    gap: 0.8rem;
+    padding: 8px;
+    color: #818182;
+    font-weight: 600;
+}
+
+.btn-custom {
+    background-color: var(--custom-primary-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: var(--custom-hover-color);
+    color: var(--text-color);
+}
+
+.navbar-custom {
+    background-color: var(--custom-primary-color);
+}
+
+.prof-btn {
+    display: flex;
+    justify-content: flex-end;
+    outline: none;
+}
+
+.profile-btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 100px;
+    background-color: var(--custom-primary-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease;
+}
+
+.profile-btn :hover {
+    background-color: var(--custom-hover-color);
+    transition: background-color 0.3s ease;
+}
+
+.navbar-toggler {
+    background-color: var(--custom-primary-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.navbar-toggler-collapse {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+    color: var(--custom-hover-color);
+}
+
+/*body{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}*/
+
+.col-md-4{
+    background: #f3f2f2;
+}
+
+.emp-profile{
+    margin-top: -1%;
+    padding: 3%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+
+.profile-img{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.profile-img img{
+    width: 70%;
+    height: 50%;
+    aspect-ratio: 0.8/0.7;
+}
+
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -10%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+.profile-img .file:hover {
+    background-color: #fafafa;
+    color: rgb(3, 3, 3);
+}
+
+.profile-head h4{
+    font-weight:600;
+    margin-top: 5%;
+    color: #333;
+}
+
+.profile-head h6{
+    color: #0062cc;
+    margin-bottom: 20%;
+}
+
+.profile-edit-btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 80%;
+    padding: 2%;
+    font-weight: 600;
+    color: #6c757d;
+    cursor: pointer;
+    position: relative;
+    top: -37px;
+    left: 50%;
+}
+
+.profile-edit-btn:hover {
+    background-color: var(--custom-hover-color);
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
+}
+
+.mail-btn,
+.notif-btn {
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    padding: 2%;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+}
+
+.mail-btn:hover {
+    background-color: #a0a9b1;
+    transition: 0.2s ease-in-out;
+}
+
+.notif-btn:hover {
+    background-color: #a0a9b1;
+    transition: 0.2s ease-in-out;
+}
+
+.mail-btn img,
+.notif-btn img {
+  width: 100%;
+  height: auto;
+}
+
+.profile-head .nav-tabs{
+    margin-bottom:5%;
+}
+
+.profile-head .nav-tabs .nav-link{
+    font-weight:600;
+    border: none;
+}
+
+.profile-head .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #0062cc;
+}
+
+.profile-work{
+    padding: 17%;
+    margin-top: -15%;
+}
+
+.log-out p{
+    text-align: center;
+    color: #495057;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.log-out:hover p{
+    color: rgba(255, 41, 3, 0.596);
+    transition: 0.2s ease-in-out;
+}
+
+.profile-work ul{
+    list-style: none;
+}
+
+.profile-tab label{
+    font-weight: 600;
+}
+
+.profile-tab p{
+    font-weight: 600;
+    color: #0062cc;
+}
+

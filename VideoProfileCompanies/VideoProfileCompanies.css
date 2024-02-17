@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    --custom-primary-color: #427D9D;
+    --custom-hover-color: #9BBEC8;
+    --text-color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: #427D9D;
+}
+
+.navbar-brand:hover {
+    color: #9BBEC8;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link {
+    color: #427D9D;
+}
+
+.nav-link:hover {
+    color: #9BBEC8;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-item {
+    gap: 0.8rem;
+    padding: 8px;
+}
+
+.btn-custom {
+    background-color: var(--custom-primary-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: var(--custom-hover-color);
+    color: var(--text-color);
+}
+
+.navbar-custom {
+    background-color: var(--custom-primary-color);
+}
+
+.log-reg-btn {
+    outline: none;
+    gap: 0.5rem;
+}
+
+.reg-btn {
+    cursor: pointer;
+    border-radius: 8px;
+    height: 40px;
+    width: 100px;
+}
+
+.reg-btn :hover {
+    transition: 0.3s ease-in-out;
+}
+
+.log-btn {
+    cursor: pointer;
+    border-radius: 8px;
+    height: 40px;
+    width: 100px;
+}
+
+.log-btn :hover {
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-toggler {
+    background-color: var(--custom-primary-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.navbar-toggler-collapse {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+    color: var(--custom-hover-color);
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: var(--custom-hover-color);
+    transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+}
+
+.container.text-center {
+    margin-top: 50px;
+}
+
+.row {
+    padding: 50px;
+}
+
+.card-title{
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.card-title:hover{
+    color: #b1b1b1;
+    transition: 0.15s ease-in-out;
+}
+
+.card-text{
+    height: 60px;
+}
+
+.video-profile {
+    display: flex;
+    /*   flex-wrap:wrap; */
+    justify-content: center;
+    padding: 20px 40px;
+    margin: 0px auto;
+    overflow-x: hidden;
+}
+
+.video-card {
+    margin-bottom: 20px;
+}
+
+.video-thumbnail {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: rgba(0, 0, 0, 0);
+    z-index: 0;
+    transition: background 0.3s ease-in-out;
+}
+
+.video-card .card::before {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.card:hover::before {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.play-icon {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+    transition: transform 0.3s ease-in-out;
+}
+
+.play-icon:hover {
+    color: #6d8eb4;
+    transition: 0.1s ease-in-out;
+}
+

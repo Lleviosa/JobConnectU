@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Homepage.css" />
+    <title>JobConnect U</title>
+  </head>
+
+  <body>
+    <!-- NAV SECTION START-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">JobConnect U</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Search jobs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Companies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+          </ul>
+          <form class="log-reg-btn d-flex">
+            <button class="btn btn-custom reg-btn">Register</button>
+            <button class="btn btn-custom log-btn">Login</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- NAV SECTION END-->
+    <div class="container text-center">
+      <h2>Welcome to JobConnect U!</h2>
+      <form class="search-bar d-flex mx-auto" role="search">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Find your job!"
+          aria-label="Search"
+        />
+        <button class="btn btn-custom" type="submit">Search</button>
+      </form>
+    </div>
+    <!-- MAIN SECTION START-->
+    <div class="latest-jobs">
+      <h3 class="latestjobs">Latest Jobs</h3>
+      <div class="jobs-slider">
+        <div class="jobs-list-container">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card job-card">
+                <div class="card-header">
+                  <div class="job-type">Full Time</div>
+                </div>
+                <div class="card-body">
+                  <h3 class="job-title">Web Developer</h3>
+                  <div class="job-description">
+                    PHP Web Developer with knoweldge of both frontend and
+                    backend technology.
+                  </div>
+                  <div class="job-posting-details">
+                    <div class="job-posted-time">
+                      <img
+                        src="https://www.svgrepo.com/show/487203/clock.svg"
+                        alt=""
+                      />
+                      8 Hr ago
+                    </div>
+                    <div class="job-salary">
+                      <img
+                        src="https://www.svgrepo.com/show/471303/currency-rupee-circle.svg"
+                        alt=""
+                      />
+                      32k
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#"
+                    ><img
+                      class="company-logo"
+                      src="https://scontent.fjai5-1.fna.fbcdn.net/v/t39.30808-6/301439850_573154561266574_6075881489814976167_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UywnEN907MMAX85C--3&_nc_ht=scontent.fjai5-1.fna&oh=00_AfCHFUrOoPLnP5rC6wuybMNKfsKGK7DG3uvyppLaFOEXWQ&oe=63C7FB4E"
+                      alt=""
+                  /></a>
+                  <div class="company-details">
+                    <div class="company-title">Science Career Coaching</div>
+                    <div class="location">
+                      <img
+                        src="https://www.svgrepo.com/show/486434/location-filled.svg"
+                      />
+                      Jakarta
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card job-card">
+                <div class="card-header">
+                  <div class="job-type">Full Time</div>
+                </div>
+                <div class="card-body">
+                  <h3 class="job-title">Back-End Programming</h3>
+                  <div class="job-description">
+                    Programming with knoweldge of backend technology.
+                  </div>
+                  <div class="job-posting-details">
+                    <div class="job-posted-time">
+                      <img
+                        src="https://www.svgrepo.com/show/487203/clock.svg"
+                        alt=""
+                      />
+                      2 Hr ago
+                    </div>
+                    <div class="job-salary">
+                      <img
+                        src="https://www.svgrepo.com/show/471303/currency-rupee-circle.svg"
+                        alt=""
+                      />
+                      23k
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#"
+                    ><img
+                      class="company-logo"
+                      src="https://scontent.fjai5-1.fna.fbcdn.net/v/t39.30808-6/301439850_573154561266574_6075881489814976167_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UywnEN907MMAX85C--3&_nc_ht=scontent.fjai5-1.fna&oh=00_AfCHFUrOoPLnP5rC6wuybMNKfsKGK7DG3uvyppLaFOEXWQ&oe=63C7FB4E"
+                      alt=""
+                  /></a>
+                  <div class="company-details">
+                    <div class="company-title">Science Career Coaching</div>
+                    <div class="location">
+                      <img
+                        src="https://www.svgrepo.com/show/486434/location-filled.svg"
+                      />
+                      Malang
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card job-card">
+                <div class="card-header">
+                  <div class="job-type">Full Time</div>
+                </div>
+                <div class="card-body">
+                  <h3 class="job-title">Artificial Intelligence</h3>
+                  <div class="job-description">
+                    Creating smart computer with high intelligence that can communicate with human.
+                  </div>
+                  <div class="job-posting-details">
+                    <div class="job-posted-time">
+                      <img
+                        src="https://www.svgrepo.com/show/487203/clock.svg"
+                        alt=""
+                      />
+                      8 Hr ago
+                    </div>
+                    <div class="job-salary">
+                      <img
+                        src="https://www.svgrepo.com/show/471303/currency-rupee-circle.svg"
+                        alt=""
+                      />
+                      22k
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#"
+                    ><img
+                      class="company-logo"
+                      src="https://scontent.fjai5-1.fna.fbcdn.net/v/t39.30808-6/301439850_573154561266574_6075881489814976167_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UywnEN907MMAX85C--3&_nc_ht=scontent.fjai5-1.fna&oh=00_AfCHFUrOoPLnP5rC6wuybMNKfsKGK7DG3uvyppLaFOEXWQ&oe=63C7FB4E"
+                      alt=""
+                  /></a>
+                  <div class="company-details">
+                    <div class="company-title">AI Coaching</div>
+                    <div class="location">
+                      <img
+                        src="https://www.svgrepo.com/show/486434/location-filled.svg"
+                      />
+                      Bandung
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card job-card">
+                <div class="card-header">
+                  <div class="job-type">Full Time</div>
+                </div>
+                <div class="card-body">
+                  <h3 class="job-title">Game Developer</h3>
+                  <div class="job-description">
+                    Create a game with great engine and high skill of programming.
+                  </div>
+                  <div class="job-posting-details">
+                    <div class="job-posted-time">
+                      <img
+                        src="https://www.svgrepo.com/show/487203/clock.svg"
+                        alt=""
+                      />
+                      1 Day ago
+                    </div>
+                    <div class="job-salary">
+                      <img
+                        src="https://www.svgrepo.com/show/471303/currency-rupee-circle.svg"
+                        alt=""
+                      />
+                      16k
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#"
+                    ><img
+                      class="company-logo"
+                      src="https://scontent.fjai5-1.fna.fbcdn.net/v/t39.30808-6/301439850_573154561266574_6075881489814976167_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UywnEN907MMAX85C--3&_nc_ht=scontent.fjai5-1.fna&oh=00_AfCHFUrOoPLnP5rC6wuybMNKfsKGK7DG3uvyppLaFOEXWQ&oe=63C7FB4E"
+                      alt=""
+                  /></a>
+                  <div class="company-details">
+                    <div class="company-title">Game Coaching</div>
+                    <div class="location">
+                      <img
+                        src="https://www.svgrepo.com/show/486434/location-filled.svg"
+                      />
+                      Surabaya
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card job-card">
+                <div class="card-header">
+                  <div class="job-type">Full Time</div>
+                </div>
+                <div class="card-body">
+                  <h3 class="job-title">UI/UX</h3>
+                  <div class="job-description">
+                    Make a design with very userable and wonderful.
+                  </div>
+                  <div class="job-posting-details">
+                    <div class="job-posted-time">
+                      <img
+                        src="https://www.svgrepo.com/show/487203/clock.svg"
+                        alt=""
+                      />
+                      1 Day ago
+                    </div>
+                    <div class="job-salary">
+                      <img
+                        src="https://www.svgrepo.com/show/471303/currency-rupee-circle.svg"
+                        alt=""
+                      />
+                      41k
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#"
+                    ><img
+                      class="company-logo"
+                      src="https://scontent.fjai5-1.fna.fbcdn.net/v/t39.30808-6/301439850_573154561266574_6075881489814976167_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UywnEN907MMAX85C--3&_nc_ht=scontent.fjai5-1.fna&oh=00_AfCHFUrOoPLnP5rC6wuybMNKfsKGK7DG3uvyppLaFOEXWQ&oe=63C7FB4E"
+                      alt=""
+                  /></a>
+                  <div class="company-details">
+                    <div class="company-title">Design Coaching</div>
+                    <div class="location">
+                      <img
+                        src="https://www.svgrepo.com/show/486434/location-filled.svg"
+                      />
+                      Semarang
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card job-card">
+                <div class="card-header">
+                  <div class="job-type">Full Time</div>
+                </div>
+                <div class="card-body">
+                  <h3 class="job-title">Cyber Security</h3>
+                  <div class="job-description">
+                    Be a hacker, but a good hacker.
+                  </div>
+                  <div class="job-posting-details">
+                    <div class="job-posted-time">
+                      <img
+                        src="https://www.svgrepo.com/show/487203/clock.svg"
+                        alt=""
+                      />
+                      3 Day ago
+                    </div>
+                    <div class="job-salary">
+                      <img
+                        src="https://www.svgrepo.com/show/471303/currency-rupee-circle.svg"
+                        alt=""
+                      />
+                      21k
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#"
+                    ><img
+                      class="company-logo"
+                      src="https://scontent.fjai5-1.fna.fbcdn.net/v/t39.30808-6/301439850_573154561266574_6075881489814976167_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UywnEN907MMAX85C--3&_nc_ht=scontent.fjai5-1.fna&oh=00_AfCHFUrOoPLnP5rC6wuybMNKfsKGK7DG3uvyppLaFOEXWQ&oe=63C7FB4E"
+                      alt=""
+                  /></a>
+                  <div class="company-details">
+                    <div class="company-title">Security Coaching</div>
+                    <div class="location">
+                      <img
+                        src="https://www.svgrepo.com/show/486434/location-filled.svg"
+                      />
+                      Jakarta
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card job-card">
+                <div class="card-header">
+                  <div class="job-type">Full Time</div>
+                </div>
+                <div class="card-body">
+                  <h3 class="job-title">Front-End Programming</h3>
+                  <div class="job-description">
+                    Programming with knoweldge of frontend technology.
+                  </div>
+                  <div class="job-posting-details">
+                    <div class="job-posted-time">
+                      <img
+                        src="https://www.svgrepo.com/show/487203/clock.svg"
+                        alt=""
+                      />
+                      7 Day ago
+                    </div>
+                    <div class="job-salary">
+                      <img
+                        src="https://www.svgrepo.com/show/471303/currency-rupee-circle.svg"
+                        alt=""
+                      />
+                      29k
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#"
+                    ><img
+                      class="company-logo"
+                      src="https://scontent.fjai5-1.fna.fbcdn.net/v/t39.30808-6/301439850_573154561266574_6075881489814976167_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UywnEN907MMAX85C--3&_nc_ht=scontent.fjai5-1.fna&oh=00_AfCHFUrOoPLnP5rC6wuybMNKfsKGK7DG3uvyppLaFOEXWQ&oe=63C7FB4E"
+                      alt=""
+                  /></a>
+                  <div class="company-details">
+                    <div class="company-title">Science Career Coaching</div>
+                    <div class="location">
+                      <img
+                        src="https://www.svgrepo.com/show/486434/location-filled.svg"
+                      />
+                      Malang
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card job-card">
+                <div class="card-header">
+                  <div class="job-type">Full Time</div>
+                </div>
+                <div class="card-body">
+                  <h3 class="job-title">Data Science</h3>
+                  <div class="job-description">
+                    Processing data, a very big data.
+                  </div>
+                  <div class="job-posting-details">
+                    <div class="job-posted-time">
+                      <img
+                        src="https://www.svgrepo.com/show/487203/clock.svg"
+                        alt=""
+                      />
+                      2 Weeks ago
+                    </div>
+                    <div class="job-salary">
+                      <img
+                        src="https://www.svgrepo.com/show/471303/currency-rupee-circle.svg"
+                        alt=""
+                      />
+                      27k
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#"
+                    ><img
+                      class="company-logo"
+                      src="https://scontent.fjai5-1.fna.fbcdn.net/v/t39.30808-6/301439850_573154561266574_6075881489814976167_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UywnEN907MMAX85C--3&_nc_ht=scontent.fjai5-1.fna&oh=00_AfCHFUrOoPLnP5rC6wuybMNKfsKGK7DG3uvyppLaFOEXWQ&oe=63C7FB4E"
+                      alt=""
+                  /></a>
+                  <div class="company-details">
+                    <div class="company-title">Science Career Coaching</div>
+                    <div class="location">
+                      <img
+                        src="https://www.svgrepo.com/show/486434/location-filled.svg"
+                      />
+                      Malang
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card job-card">
+                <div class="card-header">
+                  <div class="job-type">Full Time</div>
+                </div>
+                <div class="card-body">
+                  <h3 class="job-title">Data Analyst</h3>
+                  <div class="job-description">
+                    Analyzing data, creating a summary.
+                  </div>
+                  <div class="job-posting-details">
+                    <div class="job-posted-time">
+                      <img
+                        src="https://www.svgrepo.com/show/487203/clock.svg"
+                        alt=""
+                      />
+                      3 Weeks ago
+                    </div>
+                    <div class="job-salary">
+                      <img
+                        src="https://www.svgrepo.com/show/471303/currency-rupee-circle.svg"
+                        alt=""
+                      />
+                      20k
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#"
+                    ><img
+                      class="company-logo"
+                      src="https://scontent.fjai5-1.fna.fbcdn.net/v/t39.30808-6/301439850_573154561266574_6075881489814976167_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UywnEN907MMAX85C--3&_nc_ht=scontent.fjai5-1.fna&oh=00_AfCHFUrOoPLnP5rC6wuybMNKfsKGK7DG3uvyppLaFOEXWQ&oe=63C7FB4E"
+                      alt=""
+                  /></a>
+                  <div class="company-details">
+                    <div class="company-title">Science Career Coaching</div>
+                    <div class="location">
+                      <img
+                        src="https://www.svgrepo.com/show/486434/location-filled.svg"
+                      />
+                      Solo
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAIN SECTION END-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
