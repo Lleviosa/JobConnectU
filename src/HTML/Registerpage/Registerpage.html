@@ -15,7 +15,7 @@
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
           crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="Loginpage.css" />
+        <link rel="stylesheet" href="/src/CSS/Registerpage/Registerpage.css" />
         <title>JobConnect U</title>
       </head>
     <body>
@@ -28,8 +28,12 @@
                 alt="Background Image">
         </div>
         <div class="login-container">
-            <h3 class="login-heading mb-4">Welcome back!</h3>
+            <h3 class="login-heading mb-4">Hello, Welcome!</h3>
             <form>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Username</label>
+                </div>
                 <div class="form-floating mb-3">
                     <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                     <label for="floatingInput">Email address</label>
@@ -38,25 +42,20 @@
                     <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                     <label for="floatingPassword">Password</label>
                 </div>
-                <div class="form-check mb-3 d-flex">
-                    <div>
-                        <input class="form-check-input" type="checkbox" value="" id="rememberPasswordCheck">
-                        <label class="form-check-label" for="rememberPasswordCheck">Remember password</label>
-                    </div>
-                    <div class="forgot-password ms-auto">
-                        <a class="small" href="#">Forgot password?</a>
-                    </div>
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Confirm password</label>
                 </div>
                 <div class="d-grid">
-                    <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit">Log in</button>
+                    <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit">Sign up</button>
                 </div>
             </form>
             <div class="mx-3 my-2 py-2 bordert">
                 <div class="text-center py-3"> <a href="https://wwww.facebook.com" target="_blank" class="px-2"> <img src="https://www.dpreview.com/files/p/articles/4698742202/facebook.jpeg" alt=""> </a> <a href="https://www.google.com" target="_blank" class="px-2"> <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" alt=""> </a> <a href="https://www.github.com" target="_blank" class="px-2"> <img src="https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-github-icon-35.png" alt=""> </a> </div>
             </div>
-            <div class="not-have-account ms-auto">
-                <label class="form-check-label" for="rememberPasswordCheck">Not have an account?</label>
-                <a class="small" href="#">Sign Up</a>
+            <div class="already-have-account ms-auto">
+                <label class="form-check-label" for="rememberPasswordCheck">Already have account?</label>
+                <a class="small" href="#">Log In</a>
             </div>
         </div>
         <script
